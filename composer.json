@@ -1,0 +1,26 @@
+{
+    "name": "kekalainen/eloquent-concurrency",
+    "description": "Race condition workarounds for concurrent *OrCreate method calls.",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "concurrency"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kekalainen",
+            "email": "git@kekalainen.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/database": ">=5.4",
+        "illuminate/support": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kekalainen\\EloquentConcurrency\\": "src/"
+        }
+    }
+}
